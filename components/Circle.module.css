@@ -1,0 +1,18 @@
+.circle {
+  background: rgb(3, 58, 40);
+  height: 4.25rem;
+  width: 4.25rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  z-index: 100;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all 0.2s;
+}
+
+.circleOutline {
+  outline: 4px solid rgb(196, 193, 49);
+}

@@ -1,0 +1,67 @@
+.main {
+  display: flex;
+  width: 70rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+}
+
+.line {
+  width: 0;
+  height: 0;
+  border: 2px solid rgb(196, 193, 49);
+  background-color: rgb(196, 193, 49);
+  padding: 0;
+  left: 0;
+  position: absolute;
+  z-index: 3;
+  transition: all 0.2s;
+}
+
+.lineFix {
+  width: 67rem;
+  height: 0;
+  border: 2px solid rgb(114, 114, 114);
+  background-color: rgb(114, 114, 114);
+  padding: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+  transition: all 0.2s;
+}
+
+.container {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.controller {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 4rem 1rem 1rem 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(3, 58, 40);
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 4px;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: rgb(3, 78, 10);
+}
+
+.button:active {
+  transform: translateY(1px);
+  background-color: rgb(196, 193, 49);
+}
